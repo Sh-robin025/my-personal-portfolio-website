@@ -1,3 +1,36 @@
+@media only screen and (max-width:768px) {
+    .navbar {
+        padding-left: 15px;
+    }
+    .navbar h1 {
+        font-size: x-large;
+        font-weight: 700;
+        /* letter-spacing: .20px; */
+    }
+    .intro h1 {
+        /* color: #fff; */
+        font-size: x-large;
+        /* font-weight: 800;
+        margin-bottom: 10px;
+        letter-spacing: 2px; */
+        /* text-align: center; */
+    }
+    .intro p {
+        /* color: goldenrod; */
+        font-size: 15px;
+        line-height: 20px;
+        /* font-weight: 400;
+        letter-spacing: 1px;
+        text-align: justify;
+        margin: 10px 25px; */
+    }
+    .footer-head h1 {
+        font-size: x-large;
+        letter-spacing: .5px;
+    }
+}
+
+
 /* start media query for tablet */
 
 @media only screen and (min-width:768px) {

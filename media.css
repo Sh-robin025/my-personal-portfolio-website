@@ -1,0 +1,98 @@
+/* start media query for tablet */
+
+@media only screen and (min-width:768px) {
+    #first-part .first-part h1 {
+        font-size: 5.5rem;
+    }
+    .element {
+        margin: 0 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .project-item {
+        /* margin: 25px 20px; */
+    }
+    .about {
+        flex-direction: row;
+    }
+    .intro h3 {
+        position: relative;
+        bottom: 10px;
+    }
+    .about .intro {
+        width: 45%;
+    }
+    #contact {
+        position: relative;
+        bottom: 120px;
+        height: 450px;
+    }
+    .contact-items {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+/* end media query for tablet */
+
+
+/* start media query for computer */
+
+@media only screen and (min-width:1200px) {
+    .navbar {
+        padding: 0px 50px;
+    }
+    .navbar h1 {
+        font-size: 45px;
+        font-weight: 700;
+        letter-spacing: .5px;
+        margin-left: 100px;
+    }
+    #hamburger {
+        display: none;
+    }
+    .nav-item ul {
+        position: initial;
+        display: block;
+        height: auto;
+        width: fit-content;
+        background-color: transparent;
+    }
+    .nav-item ul li:hover a {
+        font-weight: 600;
+    }
+    .nav-item ul a::after {
+        display: none;
+    }
+    .nav-item ul li a {
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: .5px;
+    }
+    .nav-item ul li {
+        display: inline-block;
+    }
+    .intro h1 {
+        font-size: 40px;
+    }
+    .element {
+        display: grid;
+        grid-template-columns: repeat(4, .5fr);
+        margin-top: 30px;
+    }
+    .project-item {
+        margin: 20px 13px;
+    }
+    .contact-items .item {
+        flex-direction: row;
+        text-align: left;
+        justify-content: left;
+    }
+    .footer-head h1 {
+        font-size: 40px;
+    }
+}
+
+
+/* end media query for computer */

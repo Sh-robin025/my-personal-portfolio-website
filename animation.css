@@ -1,0 +1,36 @@
+/* here is animation on text */
+
+@keyframes hamburger_puls {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1.6);
+    }
+}
+
+@keyframes text_animation {
+    50% {
+        width: 100%;
+        left: 0;
+    }
+    100% {
+        width: 0;
+        left: 100%;
+    }
+}
+
+@keyframes text {
+    100% {
+        color: white;
+    }
+}
+
+@keyframes text_name {
+    100% {
+        color: rgb(250, 2, 176);
+        font-weight: 700;
+    }
+}
